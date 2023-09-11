@@ -1,0 +1,74 @@
+<!-- <router-outlet></router-outlet>
+
+<div class="yo">
+  <div class="container">
+    <div class="upper-data">
+      <img src="../assets/hot.png" alt="" *ngIf="14 > 40">
+      <img src="../assets/cold.jpg" alt="" *ngIf="14 <= 30">
+      <div class="weather-data">
+        <div class="location">Mahdia</div>
+        <div class="temperatue"> {{ 14.20 | number: '1.0-0' }}°C</div>
+      </div>
+   </div>
+
+    <div class="lower-data">
+      <div class="more-info-label">
+      More information
+      </div>
+      <div class="more-info-container">
+        <div class="info-block">
+          <div class="info-block-label">
+           <img src="../assets/min.avif" alt="">
+             <span>min</span>
+          </div>
+          <div class="info-block-value">
+            10°C
+          </div>
+        </div>
+        <div class="info-block">
+          <div class="info-block-label">
+           <img src="../assets/min.avif" alt="">
+             <span>min</span>
+          </div>
+          <div class="info-block-value">
+            10°C
+          </div>
+        </div>
+        <div class="info-block">
+          <div class="info-block-label">
+           <img src="../assets/min.avif" alt="">
+             <span>Humidity</span>
+          </div>
+          <div class="info-block-value">
+            77%
+          </div>
+        </div>
+        <div class="info-block">
+          <div class="info-block-label">
+           <img src="../assets/min.avif" alt="">
+             <span>wind</span>
+          </div>
+          <div class="info-block-value">
+            11km
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+ </div>
+</div>
+
+
+ -->
+ <div>
+  <h2>Drawing with Color Palette</h2>
+  <div class="color-palette">
+    <div class="color" (click)="changeColor('black')" style="background-color: black;"></div>
+    <div class="color" (click)="changeColor('red')" style="background-color: red;"></div>
+    <div class="color" (click)="changeColor('blue')" style="background-color: blue;"></div>
+    <div class="color" (click)="changeColor('green')" style="background-color: green;"></div>
+    <!-- Add more colors as needed -->
+  </div>
+  <canvas #canvas width="400" height="300" style="border: 1px solid black;"></canvas>
+</div>

@@ -1,0 +1,120 @@
+/*
+.container {
+    width: 400px;
+    height: 80vh;
+    background-color: var(--primary1);
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px var(--shadow-dark);
+}
+.upper-data {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 45%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+.lower-data {
+  position: relative;
+   overflow:hidden;
+   width: 100%;
+   height: 50%;
+   border-bottom-left-radius: 15px;
+   border-bottom-right-radius: 15px;
+   padding: 1em;
+   display: flex;
+   flex-direction: column;
+
+
+}
+.upper-data img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+.weather-data {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    background-color: var(--shadow-dark);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.location {
+  color: var(--white);
+  text-align: center;
+  font-size: 1.6em;
+}
+.temperatue {
+  color: var(--white);
+  text-align: center;
+  font-size: 4em;
+  font-weight: 900;
+}
+
+.more-info-label {
+  color: var(--white);
+}
+.more-info-container {
+  flex:1 ;
+  background-color: var(--shadow-light);
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  margin-top: 1em;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.info-block {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+}
+.info-block-label {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+.info-block-label img {
+  width: 2em;
+  height: 2em;
+
+}
+.info-block-label span {
+color: var(--white);
+font-size: 0.8em;
+}
+.info-block-value {
+  width: 50%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: var(--white);
+
+}
+ */
+ .color-palette {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.color {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+canvas {
+  border: 1px solid black;
+  cursor: crosshair;
+}

@@ -1,0 +1,28 @@
+:root { 
+    --primary: #3C429E;
+    --primary1: #4C52AD;
+    --yellow: #FAC742;
+    --white: #FFF; 
+    --grey: #EDEDED;
+    --shadow-dark: rgba(0, 0, 0, 0.3);
+    --shadow-light: rgba(255, 255, 255, 0.1);
+}
+
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Corrected property to "box-sizing" */
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
+    height: 100vh;
+    background-color: var(--primary1);
+    display: flex;
+   
+    justify-content: center;
+    align-items: center;
+}
+
+
